@@ -18,7 +18,7 @@ const App = () => {
     <div>
       <h1>Users: </h1>
       {users.map(u => <h4 key={u._id}>userName : {u.userName}</h4>)}
-      <ComponentOne/>
+      {/* <ComponentOne/> */}
     </div>
   )
 }
